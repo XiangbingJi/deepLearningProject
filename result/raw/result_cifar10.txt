@@ -1,0 +1,185 @@
+Using gpu device 0: GRID K520 (CNMeM is enabled with initial size: 95.0% of memory, cuDNN 5004)
+/home/ubuntu/miniconda2/lib/python2.7/site-packages/theano/tensor/signal/downsample.py:6: UserWarning: downsample module has been moved to the theano.tensor.signal.pool module.
+  "downsample module has been moved to the theano.tensor.signal.pool module.")
+/home/ubuntu/pylearn2/pylearn2/utils/image.py:16: UserWarning: Unable to import matplotlib. Some features unavailable. Original exception: No module named matplotlib.pyplot
+  "Original exception: " + str(matplotlib_exception))
+/data/group07_binaryconnect/src/shangshang/nn.py:569: UserWarning: The `image_shape` keyword argument to `tensor.nnet.conv2d` is deprecated, it has been renamed to `input_shape`.
+  image_shape=image_shape
+learning rate: 0.1
+n_epoches:     1000
+batch_size:    200
+dataset:       CIFAR10
+nkerns:        16, 512
+binary:        False
+stochastic     False
+train_set_size = 45000
+...Loading CIFAR-10 dataset
+... building the model
+... training
+training @ iter =  0
+training @ iter =  100
+training @ iter =  200
+epoch 1, minibatch 225/225, validation error 51.240000 %
+     epoch 1, minibatch 225/225, test error of best model 51.410000 %
+training @ iter =  300
+training @ iter =  400
+epoch 2, minibatch 225/225, validation error 40.760000 %
+     epoch 2, minibatch 225/225, test error of best model 41.050000 %
+training @ iter =  500
+training @ iter =  600
+epoch 3, minibatch 225/225, validation error 37.480000 %
+     epoch 3, minibatch 225/225, test error of best model 38.150000 %
+training @ iter =  700
+training @ iter =  800
+epoch 4, minibatch 225/225, validation error 36.200000 %
+     epoch 4, minibatch 225/225, test error of best model 36.980000 %
+training @ iter =  900
+training @ iter =  1000
+training @ iter =  1100
+epoch 5, minibatch 225/225, validation error 35.540000 %
+     epoch 5, minibatch 225/225, test error of best model 36.390000 %
+training @ iter =  1200
+training @ iter =  1300
+epoch 6, minibatch 225/225, validation error 35.520000 %
+     epoch 6, minibatch 225/225, test error of best model 35.970000 %
+training @ iter =  1400
+training @ iter =  1500
+epoch 7, minibatch 225/225, validation error 35.560000 %
+training @ iter =  1600
+training @ iter =  1700
+epoch 8, minibatch 225/225, validation error 34.380000 %
+     epoch 8, minibatch 225/225, test error of best model 35.470000 %
+training @ iter =  1800
+training @ iter =  1900
+training @ iter =  2000
+epoch 9, minibatch 225/225, validation error 33.960000 %
+     epoch 9, minibatch 225/225, test error of best model 35.140000 %
+training @ iter =  2100
+training @ iter =  2200
+epoch 10, minibatch 225/225, validation error 33.660000 %
+     epoch 10, minibatch 225/225, test error of best model 34.790000 %
+training @ iter =  2300
+training @ iter =  2400
+epoch 11, minibatch 225/225, validation error 32.900000 %
+     epoch 11, minibatch 225/225, test error of best model 34.120000 %
+training @ iter =  2500
+training @ iter =  2600
+epoch 12, minibatch 225/225, validation error 32.540000 %
+     epoch 12, minibatch 225/225, test error of best model 33.960000 %
+training @ iter =  2700
+training @ iter =  2800
+training @ iter =  2900
+epoch 13, minibatch 225/225, validation error 32.060000 %
+     epoch 13, minibatch 225/225, test error of best model 33.670000 %
+training @ iter =  3000
+training @ iter =  3100
+epoch 14, minibatch 225/225, validation error 31.880000 %
+     epoch 14, minibatch 225/225, test error of best model 33.240000 %
+training @ iter =  3200
+training @ iter =  3300
+epoch 15, minibatch 225/225, validation error 31.500000 %
+     epoch 15, minibatch 225/225, test error of best model 33.080000 %
+training @ iter =  3400
+training @ iter =  3500
+epoch 16, minibatch 225/225, validation error 31.300000 %
+     epoch 16, minibatch 225/225, test error of best model 33.030000 %
+training @ iter =  3600
+training @ iter =  3700
+training @ iter =  3800
+epoch 17, minibatch 225/225, validation error 31.120000 %
+     epoch 17, minibatch 225/225, test error of best model 32.800000 %
+training @ iter =  3900
+training @ iter =  4000
+epoch 18, minibatch 225/225, validation error 31.020000 %
+     epoch 18, minibatch 225/225, test error of best model 32.770000 %
+training @ iter =  4100
+training @ iter =  4200
+epoch 19, minibatch 225/225, validation error 30.900000 %
+     epoch 19, minibatch 225/225, test error of best model 32.660000 %
+training @ iter =  4300
+training @ iter =  4400
+epoch 20, minibatch 225/225, validation error 30.820000 %
+     epoch 20, minibatch 225/225, test error of best model 32.650000 %
+training @ iter =  4500
+training @ iter =  4600
+training @ iter =  4700
+epoch 21, minibatch 225/225, validation error 30.920000 %
+training @ iter =  4800
+training @ iter =  4900
+epoch 22, minibatch 225/225, validation error 30.940000 %
+training @ iter =  5000
+training @ iter =  5100
+epoch 23, minibatchThe training process for function test_lenet ran for 10.11m
+ 225/225, validation error 30.960000 %
+training @ iter =  5200
+training @ iter =  5300
+epoch 24, minibatch 225/225, validation error 30.900000 %
+training @ iter =  5400
+training @ iter =  5500
+training @ iter =  5600
+epoch 25, minibatch 225/225, validation error 30.900000 %
+training @ iter =  5700
+training @ iter =  5800
+epoch 26, minibatch 225/225, validation error 30.880000 %
+training @ iter =  5900
+training @ iter =  6000
+epoch 27, minibatch 225/225, validation error 30.960000 %
+training @ iter =  6100
+training @ iter =  6200
+epoch 28, minibatch 225/225, validation error 30.980000 %
+training @ iter =  6300
+training @ iter =  6400
+training @ iter =  6500
+epoch 29, minibatch 225/225, validation error 30.940000 %
+training @ iter =  6600
+training @ iter =  6700
+epoch 30, minibatch 225/225, validation error 30.900000 %
+training @ iter =  6800
+training @ iter =  6900
+epoch 31, minibatch 225/225, validation error 30.880000 %
+training @ iter =  7000
+training @ iter =  7100
+epoch 32, minibatch 225/225, validation error 30.860000 %
+training @ iter =  7200
+training @ iter =  7300
+training @ iter =  7400
+epoch 33, minibatch 225/225, validation error 30.920000 %
+training @ iter =  7500
+training @ iter =  7600
+epoch 34, minibatch 225/225, validation error 31.020000 %
+training @ iter =  7700
+training @ iter =  7800
+epoch 35, minibatch 225/225, validation error 31.040000 %
+training @ iter =  7900
+training @ iter =  8000
+epoch 36, minibatch 225/225, validation error 31.040000 %
+training @ iter =  8100
+training @ iter =  8200
+training @ iter =  8300
+epoch 37, minibatch 225/225, validation error 31.020000 %
+training @ iter =  8400
+training @ iter =  8500
+epoch 38, minibatch 225/225, validation error 31.020000 %
+training @ iter =  8600
+training @ iter =  8700
+epoch 39, minibatch 225/225, validation error 30.980000 %
+training @ iter =  8800
+training @ iter =  8900
+epoch 40, minibatch 225/225, validation error 30.940000 %
+training @ iter =  9000
+training @ iter =  9100
+training @ iter =  9200
+epoch 41, minibatch 225/225, validation error 30.960000 %
+training @ iter =  9300
+training @ iter =  9400
+epoch 42, minibatch 225/225, validation error 30.960000 %
+training @ iter =  9500
+training @ iter =  9600
+epoch 43, minibatch 225/225, validation error 30.960000 %
+training @ iter =  9700
+training @ iter =  9800
+epoch 44, minibatch 225/225, validation error 30.960000 %
+training @ iter =  9900
+training @ iter =  10000
+Optimization complete.
+Best validation score of 30.820000 % obtained at iteration 4500, with test performance 32.650000 %
